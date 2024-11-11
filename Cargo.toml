@@ -1,0 +1,13 @@
+[package]
+name = "transfer_bundler"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+solana-program = "=1.18.23"
+spl-token = { version = "3.5.0", features = ["no-entrypoint"] }
+borsh = "0.9.3"
+borsh-derive = "0.9.1"
+
+[lib]
+crate-type = ["cdylib", "lib"]
