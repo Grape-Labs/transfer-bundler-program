@@ -1,7 +1,7 @@
 [package]
 name = "transfer_bundler"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
 
 [dependencies]
 solana-program = "=1.18.23"
